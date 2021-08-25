@@ -1,38 +1,97 @@
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(white, rgb(241, 241, 156));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content-box {
+    display: flex;
+    flex-direction: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white !important;
+}
+.logo img {
+    width: 28%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.box-1 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    /* max-width: 100%; */
 }
 
-.App-link {
-  color: #61dafb;
+.trophyimage-div {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trophy-img {
+    width: 75%;
+    /* height: auto; */
+}
+.description {
+    width: 110%;
+    padding: 0 20px;
+}
+.description h4 {
+    font-size: 1.1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description img {
+    width: 100%;
+}
+
+.box-2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 10px;
+}
+.items-img {
+    width: 80%;
+}
+
+hr {
+    color: rgb(223, 12, 12);
+    background-color: rgb(223, 12, 12);
+    width: 95%;
+    height: 1.5px;
+    margin: 0;
+}
+
+.box-3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 10px;
+}
+
+.box-3 em {
+    color: rgb(218, 56, 56);
+}
+
+.footer {
+    background-color: rgb(218, 56, 56);
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
 }
