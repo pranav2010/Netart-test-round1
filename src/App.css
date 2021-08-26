@@ -124,6 +124,10 @@ hr {
         width: 100%;
     }
 
+    .description p {
+        text-align: center;
+    }
+
     .description img {
         width: 90%;
         display: block;
@@ -154,6 +158,10 @@ hr {
 
     .description {
         width: 100%;
+    }
+
+    .description p {
+        text-align: center;
     }
 
     .description img {
